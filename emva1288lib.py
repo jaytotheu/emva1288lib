@@ -24,6 +24,11 @@ import os as os
 import sys as sys
 import numpy as numpy
 
+class emva1288:
+    def __init__(self):
+        pass
+        
+
 def meanValueOf2Images(imageA, imageB, verbose=False):
     '''Calculates the mean values of 2 images. Both images shall be given as numpy arrays.'''
     imageA_size = imageA.shape
